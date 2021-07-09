@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li ><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header class="main-header">
+            <h1>Admission Form</h1>
+            <h3>Fill up the form to get admitted</h3>
+        </header>
+        <form action="">
+            <fieldset>
+                <legend class="personal">Personal Information</legend>
+                <p>Name : <br><input type="text" placeholder="Enter full name "></p>
+                <p>E-mail : <br><input type="email" placeholder="Enter a valid email"> </p>
+                <p>Adress : <br><input type="text" placeholder="present adress"></p>
+                <p>Date of birth : <br><input type="text" placeholder="dd/mm/yyyy"></p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Course Information</legend>
+                <h3>Choose your course</h3>
+                <p>
+                    <level for="dm"><input type="checkbox" name="course" id="dm">Digital Marketing</level>
+                </p>
+                <p>
+                    <level for="gd"><input type="checkbox" name="course" id="gd">Graphics Design</level>
+                </p>
+                <p>
+                    <level for="wd"><input type="checkbox" name="course" id="wd">Web Development</level>
+                </p>
+                <p>
+                    <level for="pg"><input type="checkbox" name="course" id="pg">Photography</level>
+                </p>
+                <br>
+                <h3>Choose your batch</h3>
+                <p>
+                    <level for="b1"><input type="radio" name="batch" id="b1">Batch 1</level>
+                </p>
+                <p>
+                    <level for="2"><input type="radio" name="batch" id="2">Batch 2</level>
+                </p>
+                <p>
+                    <level for="3"><input type="radio" name="batch" id="3">Batch 3</level>
+                </p>
+                <p>
+                    <level for="4"><input type="radio" name="batch" id="4">Batch 4</level>
+                </p>
+            </fieldset>
+            
+            <button>submit</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.profile{
+    width: 25%;
+    border-radius:20px ;   
+    box-shadow: 5px 5px 20px 10px gray;   
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.profile img{
+    height: 300px;
+    width: 300px;
+
+}
+article{
+    display: flex;
+}
+header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+

@@ -1,0 +1,21 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    background-color: rgb(3, 3, 105);
+}
+nav li a{
+    margin: 0px;
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+
+}
+
+nav li a:hover{
+    background-color: gray;
+    font-weight: 700;
+}
+.navbar{
+    margin-top: 0;
+}

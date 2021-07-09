@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+.link-button{
+    padding: 10px 20px;
+    background-image: linear-gradient(blue,navy);
+    text-decoration: none;
+    color: honeydew;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 580px;
+}
